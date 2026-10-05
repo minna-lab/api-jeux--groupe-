@@ -203,19 +203,18 @@ L'application est organisée en plusieurs couches.
 
 ```mermaid
 flowchart LR
-    flowchart LR
     Client[Client HTTP] --> Routeurs[Routeurs FastAPI]
-    Routeurs --> Dependances[Dépendances]
+    Routeurs --> Dependances[Dependances]
     Routeurs --> Services[Services]
-    Services --> Depots[Dépôts]
+    Services --> Depots[Depots]
     Depots --> Tables[Tables SQLAlchemy]
-    Tables --> Base[(Base de données)]
+    Tables --> Base[(Base de donnees)]
 
-    Routeurs --> Modeles[Modèles Pydantic]
+    Routeurs --> Modeles[Modeles Pydantic]
     Services --> Modeles
     Main[main.py] --> Routeurs
     Main --> Journalisation[Journalisation]
-    Main --> Securite[Sécurité]
+    Main --> Securite[Securite]
     Config[config.py] --> Main
 ```
 

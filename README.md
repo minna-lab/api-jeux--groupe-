@@ -53,7 +53,7 @@ Puis relancer :
 ```
 
 ### 4. Installer les dépendances
-
+Cette commande installe les dépendances nécessaires au fonctionnement du projet ainsi que les dépendances de développement et de test.
 ```bash
 pip install -r requirements-dev.txt
 ```

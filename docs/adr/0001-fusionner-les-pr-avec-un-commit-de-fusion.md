@@ -1,7 +1,7 @@
 # 1. Fusionner les pull requests avec un commit de fusion
 
 - **Date** : 2026-10-06
-- **Statut** : Proposée
+- **Statut** : Approuvée
 
 ## Contexte
 
